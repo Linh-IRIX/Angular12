@@ -1,4 +1,8 @@
 <div class="test">
     <h3>Đây là Component Home</h3>
-    <p>Đây là thẻ p</p>
+    
+    <h1>Trái cây</h1>
+    <div *ngFor="let trai of traiCay; let i = index">
+        <li>{{ i + 1 }}. {{ trai }}</li>
+    </div>
 </div>
